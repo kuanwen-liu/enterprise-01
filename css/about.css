@@ -1,0 +1,152 @@
+body{
+    overflow-y: scroll;
+
+    overflow-x: hidden;
+}
+/*--Header--*/
+.header{
+    background-size: cover;
+    height: 330px;
+}
+.header .receptacle{
+    padding-left: 5%;
+    padding-top: 80px;
+}
+.header .receptacle i{
+    color: #269abc;
+    padding-top: 20px;
+}
+.headerText{
+    padding-left: 25px;
+}
+.headerText h3{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.headerText h3 span{
+    color: #269abc;
+}
+.headerText p{
+    font-size: 16px;
+}
+/*--/Header--*/
+
+/*--Section1--*/
+.section1{
+    height: buto;
+    padding-left: 0;
+    padding-top: 30px;
+}
+.section1Content{
+    height: 330px;
+}
+.section1Content div{
+    padding-left: 0;
+}
+.section1 h3{
+    font-size: 21px;
+    font-style: italic;
+    line-height: 15px;
+}
+.section1 h4{
+    font-size: 14px;
+    color: #8d8d8d;
+    line-height: 0px;
+}
+.section1 p{
+    font-size: 16px;
+    color: #8d8d8d;
+}
+.section1 img{
+    width: 270px;
+    height: 165px;
+    margin-bottom: 30px;
+}
+/*--/Section1--*/
+
+/*--Section2--*/
+.main{
+    height:auto;
+    background-color: #bebebe;
+}
+.section2{
+    padding-top: 66px;
+}
+.section2-1{
+    padding-left: 0;
+    height: 185px;
+    margin-bottom: 15px;
+}
+.section2-2{
+    height: 185px;
+    margin-bottom: 15px;
+}
+.section2-3{
+    padding-right: 0;
+    height: 185px;
+    margin-bottom: 15px;
+}
+.section2-1 p, .section2-2 p, .section2-3 p{
+    font-size: 16px;
+    color: #808080;
+}
+/*--/Section2--*/
+
+/*--Section3--*/
+.section3-1, .section3-2, .section3-3{
+    height: 740px;;
+}
+.section3Pic{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-left: 0;
+}
+.section3Text{
+    padding-left: 0;
+}
+.section3Text h3{
+    height: 30px;
+    border-bottom:1px dotted;
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 25px;
+}
+.section3Text p{
+    font-size: 16px;
+    color: #808080;
+}
+/*--/Section3--*/
+
+/*--Theme--*/
+#theme{
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+#theme div{
+    border-bottom:#CED8DE solid;
+    height: 60px;
+}
+#theme i{
+    float: left;
+    border-bottom: solid;
+    height: 60px;
+    margin-right: 10px;
+    color: #269abc;
+}
+#theme h1{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    font-style: italic;
+    line-height: 1.5;
+}
+#theme p{
+    font-size: 14px;
+    padding: 0;
+    color: #808080;
+    line-height: 1.5;
+}
+/*--/Theme--*/

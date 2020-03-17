@@ -1,0 +1,109 @@
+body{
+    overflow-y: scroll;
+
+    overflow-x: hidden;
+}
+
+/*--Header--*/
+.header{
+    background-size: cover;
+    height: 330px;
+    margin-bottom: 65px;
+}
+.header .receptacle{
+    padding-left: 5%;
+    padding-top: 80px;
+}
+.header .receptacle i{
+    color: #269abc;
+    padding-top: 20px;
+}
+.headerText{
+    padding-left: 25px;
+}
+.headerText h2{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.headerText h2 span{
+    color: #269abc;
+}
+.headerText h3{
+    font-size: 16px;
+}
+/*--/Header--*/
+
+/*--Theme--*/
+#theme{
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+#theme div{
+    border-bottom:#CED8DE solid;
+    height: 60px;
+}
+#theme i{
+    float: left;
+    border-bottom: solid;
+    height: 60px;
+    margin-right: 10px;
+    color: #269abc;
+}
+#theme h1{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    font-style: italic;
+    line-height: 1.5;
+}
+#theme p{
+    font-size: 14px;
+    padding: 0;
+    color: #808080;
+    line-height: 1.5;
+}
+/*--/Theme--*/
+
+/*--Main--*/
+.pic{
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 45px;
+}
+.pic img{
+    height:30vw;
+    width: 100%;
+}
+.receptacle{
+    height: auto;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 45px;
+}
+.receptacle .text1, .receptacle .text2{
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 35px;
+}
+.receptacle .text3{
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 100px;
+}
+.receptacle h4{
+    font-size: 18px;
+    font-weight: bold;
+    border-bottom:1px dotted;
+    padding-bottom: 10px;
+    margin-bottom: 25px;
+}
+.receptacle p{
+    font-size: 16px;
+    border-bottom:1px dotted;
+    padding-bottom: 25px;
+}
+/*--/Main--*/

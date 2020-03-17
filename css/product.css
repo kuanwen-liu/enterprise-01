@@ -1,0 +1,199 @@
+body{
+    overflow-y: scroll;
+
+    overflow-x: hidden;
+}
+
+/*--Header--*/
+.header{
+    background-size: cover;
+    height: 330px;
+    margin-bottom: 65px;
+}
+.header .receptacle{
+    padding-left: 5%;
+    padding-top: 80px;
+}
+.header .receptacle i{
+    color: #269abc;
+    padding-top: 20px;
+}
+.headerText{
+    padding-left: 25px;
+}
+.headerText h3{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.headerText h3 span{
+    color: #269abc;
+}
+.headerText p{
+    font-size: 16px;
+}
+/*--/Header--*/
+
+/*--Theme--*/
+#theme{
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 70px;
+}
+#theme div{
+    border-bottom:#CED8DE solid;
+    height: 60px;
+}
+#themeIcon{
+    float: left;
+    border-bottom: solid;
+    height: 60px;
+    margin-right: 10px;
+    color: #269abc;
+}
+#theme h1{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    font-style: italic;
+    line-height: 1.5;
+}
+#theme p{
+    font-size: 14px;
+    padding: 0;
+    color: #808080;
+    line-height: 1.5;
+}
+/*--/Theme--*/
+
+/*--DropdownType--*/
+.dropdownType{
+    padding: 0;
+    text-align: center;
+    float: right;
+    list-style:none;
+    font-size: 14px;
+    background-color: #2f2f2f;
+}
+.dropdownbutton{
+    width: 135px;
+    color: #ffffff;
+    height: 23px;
+}
+.dropdownbutton .Typebutton{
+    width: 112px;
+    border-right:1px dotted;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.dropdownbutton .arrowRight{
+    width: 23px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.dropdown-menu{
+    padding: 0;
+}
+.dropdown-menu li a{
+    background-color: #2f2f2f;
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 0;
+    height: 23px;
+    text-align: left;
+}
+.dropdownType .dropdownbutton:hover{
+    color: #c5c5c5;
+}
+/*--/DropdownType--*/
+
+/*--Main & product--*/
+.main{
+    margin-bottom: 200px;
+}
+.section1{
+    padding: 0;
+    border-bottom:1px dotted;
+}
+.section2, .section3{
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 25px;
+    border-bottom:1px dotted;
+}
+.mainText{
+    padding: 0
+}
+.mainText p{
+    font-size: 16px;
+}
+.st1{
+    padding: 0
+}
+.product1, .product2, .product3, .product4, .product5, .product6{
+    padding: 0;
+    text-align: center;
+}
+.product1Pic, .product2Pic{
+    height: 200px;
+    padding: 0;
+}
+.product3Pic, .product4Pic, .product5Pic, .product6Pic{
+    height: 225px;
+    padding: 0;
+}
+.product7Pic, .product8Pic, .product9Pic, .product10Pic{
+    padding: 0;
+}
+.product7, .product8, .product9, .product10{
+    height: 325px;
+    padding: 0;
+    text-align: center;
+}
+.product1Pic img, .product2Pic img, .product3Pic img, .product4Pic img, .product5Pic img,
+.product6Pic img, .product7Pic img, .product8Pic img, .product9Pic img, .product10Pic img{
+    height: 200px;
+    width: 200px;
+}
+.product1Text, .product2Text, .product3Text, .product4Text, .product5Text,
+.product6Text, .product7Text, .product8Text, .product9Text, .product10Text{
+    height: 50px;
+    padding: 0;
+}
+.product1Text h5, .product2Text h5, .product3Text h5, .product4Text h5, .product5Text h5,
+.product6Text h5, .product7Text h5, .product8Text h5, .product9Text h5, .product10Text h5{
+    font-size: 21px;
+}
+/*--/Main & product--*/
+
+/*--Pagination--*/
+.pagination a{
+    height: 30px;
+    width: 30px;
+}
+.section3 .button{
+    padding-right: 0;
+    padding-top: 35px;
+}
+.section3 .button ul{
+    float: right;
+}
+.section3 .button ul .iconLeft, .section3 .button ul .iconRight{
+    background-color: #2b2b2b;
+    border:#ffffff 1px solid;
+    color: #ffffff;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+.section3 .button ul .number{
+    background-color: #2b2b2b;
+    border:#ffffff 1px solid;
+    color: #ffffff;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+/*--/Pagination--*/

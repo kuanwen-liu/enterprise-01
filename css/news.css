@@ -1,0 +1,203 @@
+body{
+    overflow-y: scroll;
+
+    overflow-x: hidden;
+}
+
+/*--Header--*/
+.header{
+    background-size: cover;
+    height: 330px;
+    margin-bottom: 65px;
+}
+.header .receptacle{
+    padding-left: 5%;
+    padding-top: 80px;
+}
+.header .receptacle i{
+    color: #269abc;
+    padding-top: 20px;
+}
+.headerText{
+    padding-left: 25px;
+}
+.headerText h3{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.headerText h3 span{
+    color: #269abc;
+}
+.headerText p{
+    font-size: 16px;
+}
+/*--/Header--*/
+
+/*--Theme--*/
+#theme{
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+#theme div{
+    border-bottom:#CED8DE solid;
+    height: 60px;
+}
+#theme .themeI{
+    float: left;
+    border-bottom: solid;
+    height: 60px;
+    margin-right: 10px;
+    color: #269abc;
+}
+#theme h1{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    font-style: italic;
+    line-height: 1.5;
+}
+#theme p{
+    font-size: 14px;
+    padding: 0;
+    color: #808080;
+    line-height: 1.5;
+}
+#theme h5{
+    padding-top: 10px;
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    font-style: italic;
+}
+/*--/Theme--*/
+
+/*--DropdownDate--*/
+.dropdownDate{
+    padding: 0;
+    text-align: center;
+    float: right;
+    list-style:none;
+    font-size: 14px;
+    background-color: #2f2f2f;
+}
+.dropdownbutton{
+    width: 135px;
+    color: #ffffff;
+    height: 23px;
+}
+.dropdownbutton .button{
+    width: 112px;
+    border-right:1px dotted;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.dropdownbutton .arrowRight{
+    width: 23px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.dropdownbutton:hover{
+    color: #c5c5c5;
+}
+.dropdownDate ul li a{
+    color: #ffffff;
+    font-size: 14px;
+    padding-top: 0;
+    height: 23px;
+    text-align: left;
+}
+.dropdown-menu a{
+    background-color: #2b2b2b;
+}
+.dropdown-menu{
+    padding: 0;
+}
+/*--/DropdownDate--*/
+
+/*--Main--*/
+.main{
+    height:auto;
+    margin-bottom: 170px;
+}
+.mainPic{
+    padding: 0;
+    text-align: center;
+}
+.mainPic img{
+    height: 210px;
+    width: 210px;
+}
+.mainText{
+    padding: 0;
+    padding-left: 65px;
+}
+.mainTextMini{
+    padding: 0;
+}
+.mainText p, .mainTextMini p{
+    font-size: 16px;
+}
+/*--/Main--*/
+
+/*--Datepagination--*/
+.date{
+    width: 50px;
+    float: left;
+    border-bottom: solid;
+    height: 60px;
+    margin-right: 10px;
+    color: #269abc;
+}
+.dateMenu{
+    padding: 0;
+    border-top:1px dotted;
+}
+.dateMenu li{
+    height: 50px;
+    border-bottom:1px dotted;
+    padding-top: 8px;
+}
+.dateMenu i{
+    width: 50px;
+    font-size: 35px;
+    text-align: center;
+    float: left;
+    color: #c5c5c5;
+}
+.dateMenu p{
+    float: left;
+    color: #0f0f0f;
+    border-left:1px dotted;
+    padding-left: 20px;
+}
+.pagination{
+    float: right;
+}
+.pagination a{
+    height: 30px;
+    width: 30px;
+}
+.paginationButton{
+    padding-right: 0;
+    padding-top: 35px;
+}
+.pagination .iconLeft, .pagination .iconRight{
+    background-color: #2b2b2b;
+    border:#ffffff 1px solid;
+    color: #ffffff;
+    padding-left: 3px;
+    padding-top: 3px;
+}
+.pagination .number{
+    background-color: #2b2b2b;
+    border:#ffffff 1px solid;
+    color: #ffffff;
+    padding-top: 3px;
+    padding-left: 10px;
+}
+/*--/Datepagination--*/

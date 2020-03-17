@@ -1,0 +1,146 @@
+body{
+    overflow-y: scroll;
+
+    overflow-x: hidden;
+}
+
+/*--Header--*/
+.header{
+    background-size: cover;
+    height: 330px;
+    margin-bottom: 65px;
+}
+.header .receptacle{
+    padding-left: 5%;
+    padding-top: 80px;
+}
+.header .receptacle i{
+    color: #269abc;
+    padding-top: 20px;
+}
+.headerText{
+    padding-left: 25px;
+}
+.headerText h3{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.headerText h3 span{
+    color: #269abc;
+}
+.headerText p{
+    font-size: 16px;
+}
+/*--/Header--*/
+
+/*--Theme--*/
+#theme{
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+#theme div{
+    border-bottom:#CED8DE solid;
+    height: 60px;
+}
+#theme i{
+    float: left;
+    border-bottom: solid;
+    height: 60px;
+    margin-right: 10px;
+    color: #269abc;
+}
+#theme h1{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    font-style: italic;
+    line-height: 1.5;
+}
+#theme p{
+    font-size: 14px;
+    padding: 0;
+    color: #808080;
+    line-height: 1.5;
+}
+/*--/Theme--*/
+
+/*--Section1~4--*/
+.section1, .section2, .section3{
+    height: auto;
+    padding: 0;
+    border-bottom:#CED8DE solid;
+    margin-bottom: 40px;
+}
+.section4{
+    height: auto;
+    padding: 0;
+    margin-bottom: 100px;
+}
+.section1Pic, .section3Pic, .section2Content, .section4Content{
+    height: 390px;
+    padding-left: 0;
+}
+.section2Pic, .section4Pic, .section1Content, .section3Content{
+    height: 390px;
+    padding-right: 0;
+}
+.section1Pic img,.section2Pic img, .section3Pic img, .section4Pic img{
+    width: 100%;
+    height: 350px;
+}
+.section1Title, .section2Title, .section3Title, .section4Title{
+    height: 40px;
+    border-bottom:1px dotted;
+}
+.section1Title h3, .section2Title h3, .section3Title h3, .section4Title h3{
+    line-height: 0px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.section1Text, .section2Text, .section3Text, .section4Text{
+    height: 280px;
+    padding-top: 25px;
+    border-bottom:1px dotted;
+    margin-bottom: 15px;
+}
+.section1Text p, .section2Text p, .section3Text p, .section4Text p{
+    font-size: 16px;
+}
+.buttonRight{
+    width: 135px;
+    padding: 0;
+    text-align: center;
+    float: right;
+}
+.section1 .button, .section3 .button{
+    padding-right: 0
+}
+.section2 .button, .section4 .button{
+    padding-left: 0;
+}
+.button01{
+    width: 112px;
+    border-right:1px dotted;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.arrowRight{
+    width: 23px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.button a{
+    height: 23px;
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+.button a:hover{
+    background-color: #c5c5c5;
+    color: #2f2f2f;
+}
+/*--/Section1~4--*/

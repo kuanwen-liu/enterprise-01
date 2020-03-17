@@ -1,0 +1,250 @@
+body{
+    overflow-y: scroll;
+
+    overflow-x: hidden;
+}
+
+/*--Header--*/
+.header{
+    background-size: cover;
+    height: 330px;
+    margin-bottom: 65px;
+}
+.header .receptacle{
+    padding-left: 5%;
+    padding-top: 80px;
+}
+.header .receptacle i{
+    color: #269abc;
+    padding-top: 20px;
+}
+.headerText{
+    padding-left: 25px;
+}
+.headerText h3{
+    font-size: 30px;
+    line-height: 40px;
+    font-weight: bold;
+}
+.headerText h3 span{
+    color: #269abc;
+}
+.headerText p{
+    font-size: 16px;
+}
+/*--/Header--*/
+
+/*--Theme--*/
+#theme{
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+#theme div{
+    border-bottom:#CED8DE solid;
+    height: 60px;
+}
+#theme i{
+    float: left;
+    border-bottom: solid;
+    height: 60px;
+    margin-right: 10px;
+    color: #269abc;
+}
+#theme h1{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    font-style: italic;
+    line-height: 1.5;
+}
+#theme p{
+    font-size: 14px;
+    padding: 0;
+    color: #808080;
+    line-height: 1.5;
+}
+/*--/Theme--*/
+
+/*--Form Submission--*/
+input[type="name"],input[type="company"],input[type="phoneNumber"],input[type="email"] {
+    background-color:#ffffff !important;
+    border:none;
+    border-radius:5px;
+    color:#aaa;
+    font-size:16px;
+    font-weight:400;
+    height:30px;
+    margin:0 0 14px;
+    overflow:auto;
+    width:215px;
+    float: right;
+}
+input[type="email"]:required:invalid,input[type="email"]:focus:invalid {
+    box-shadow:none;
+}
+textarea {
+    background-color:#ffffff;
+    border:none;
+    border-radius:5px;
+    color:#aaa;
+    display:block;
+    font-size:16px;
+    font-weight:400;
+    height:185px;
+    margin:0 0 4px;
+    overflow:auto;
+    resize:none;
+    width:410px;
+}
+.invalid,.success,.error {
+    display:none;
+    float:left;
+    margin:9px 0 0 13px;
+    top:360px;
+}
+.confirmButton{
+    width: 135px;
+    padding: 0;
+    text-align: center;
+    float: left;
+    margin-bottom: 20px;
+    height: 23px;
+    background-color: #2f2f2f;
+    color: #ffffff;
+    border: none;
+}
+.confirmButton:hover{
+    background-color: #c5c5c5;
+    color: #2f2f2f;
+}
+.enter{
+    height: auto;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.enter div{
+    padding: 0;
+}
+.enter h5{
+    font-size: 16px;
+    font-weight: bold;
+}
+.enter p{
+    font-size: 16px;
+    font-weight: bold;
+    float: left;
+}
+.enter input{
+    padding-left: 10px;
+    float: left;
+}
+.enter .email{
+    padding-left: 10px;
+    width: 205px;float: left;
+}
+.enter .message{
+    margin-bottom: 25px;
+}
+.enter .check{
+    width: 112px;
+    border-right:1px dotted;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.enter .arrowRight{
+    width: 23px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+/*--/Form Submission--*/
+
+/*--Section1--*/
+.section1{
+    padding: 0;
+}
+.receptacle{
+    height:auto;
+    margin-bottom: 85px;
+}
+.section1Text1-1{
+    height: auto;
+    border-top:1px dotted;
+    padding-top: 20px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.section1Text1-2{
+    height: 160px;
+    border-right:1px dotted;
+    padding-left: 0;
+    padding-right: 70px;
+}
+.section1Text1-2 p, .section1Text2 p{
+    font-size: 16px;
+    color: #808080;
+}
+.section1Text2{
+    height: auto;
+    padding-left: 0;
+    margin-bottom: 40px;
+    border-bottom:1px dotted;
+    padding-bottom: 40px;
+}
+.information1{
+    height: 160px;
+    padding-right: 0;
+}
+.information1 h5{
+    font-size: 21px;
+    height: 40px;
+    border-bottom:1px dotted;
+}
+.information1 p, .information2 p{
+    font-size: 16px;
+    color: #808080;
+}
+.information2{
+    height: 160px;
+    padding-right: 0;
+}
+.information2 h5{
+    font-size: 21px;
+    height: 40px;
+    margin-bottom: 15px;
+}
+/*--/Section1--*/
+
+/*--Section2--*/
+.section2{
+    height: auto;
+    background-color: #bebebe;
+    padding-top: 65px;
+}
+.location1{
+    height: 380px;
+: 0;padding-right: 0;
+    padding-bottom: 0;
+}
+.location2{
+    height: 280px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 0;
+}
+.location1Text, .location2Text{
+    padding: 0;
+}
+.location1Text p, .location2Text p{
+    font-size: 16px;
+    font-weight: bold;
+}
+.map1, .map2{
+    padding: 0;
+    padding-right: 20px;
+}
+/*--/Section2--*/

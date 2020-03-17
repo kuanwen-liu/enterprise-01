@@ -1,0 +1,306 @@
+body{
+    overflow-y: scroll;
+
+    overflow-x: hidden;
+}
+
+/*--Carousel--*/
+#Carousel{
+    margin-bottom: 50px;
+}
+#Carousel li{
+    width: 13px;
+    height: 13px;
+}
+.carousel .carousel-inner .bg {
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+.carousel .carousel-inner .bg1 {
+    background-image:url(imgs/mainA.jpg);
+}
+.carousel .carousel-inner .bg2 {
+    background-image:url(imgs/mainB.jpg);
+}
+.carousel .carousel-inner .bg3 {
+    background-image:url(imgs/mainC.jpg);
+}
+.carousel .carousel-inner .bg4 {
+    background-image:url(imgs/mainD.jpg);
+}
+.carousel .carousel-inner .bg5 {
+    background-image:url(imgs/mainE.jpg);
+}
+.item{
+    height: 480px;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+#slider{
+    padding-left: 0;
+    padding-top: 60px;
+}
+.sliderText{
+    height: 75px;
+    margin-bottom: 25px;
+}
+.sliderText h1{
+    font-size: 30px;
+    color: #ffffff;
+    line-height: 35px;
+    font-weight: bold;
+}
+#sliderBox h2{
+    font-size: 21px;
+    font-style: italic;
+    font-weight: bold;
+    color: #2aabd2;
+}
+#sliderBox p{
+    font-size: 16px;
+}
+#sliderBox{
+    height: 250px;
+    background-color: #ffffff;
+    opacity: 0.8;
+    padding-top: 25px;
+}
+/*--/Carousel--*/
+
+/*--Section1--*/
+#section1Left{
+    height: 180px;
+    margin-bottom: 50px;
+    padding-left: 0;
+}
+#section1{
+    border-left:1px dotted;
+    height: 180px;
+}
+.section1 a{
+    height: 23px;
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+.section1 a:hover{
+    background-color: #c5c5c5;
+    color: #2f2f2f;
+}
+.section1 .receptacle{
+    padding: 0;
+}
+.section1Icon{
+    padding: 0;
+    color: #269abc;
+}
+.section1 h5{
+    font-size: 21px;
+    border-bottom: 1px dotted;
+    height: 30px;
+    font-style: italic;
+    font-weight: bold;
+    margin-bottom: 18px;
+}
+.section1 p{
+    font-size: 16px;
+}
+.buttonRight{
+    width: 135px;
+    padding: 0;
+    text-align: center;
+    float: right;
+}
+.button01{
+    width: 112px;
+    border-right:1px dotted;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+.arrowRight{
+    width: 23px;
+    margin: 0;
+    padding: 0;
+    float: left;
+}
+/*--/Section1--*/
+
+/*--Social-media--*/
+
+.social-media{
+    height: 40px;
+    text-align: center;
+    margin-bottom: 70px;
+}
+.social-media a{
+    color: #2f2f2f;
+}
+.social-media a:hover{
+    color: #c5c5c5;
+}
+.social-media a{
+    margin-right: 5px;
+}
+/*--/Social-media--*/
+
+/*--News--*/
+#news{
+    margin-bottom: 100px;
+}
+.news{
+    height: 670px;
+    padding-left: 0;
+}
+.newsTitle{
+    height: 50px;
+    border-bottom:1px dotted;
+}
+.newsTitle h1{
+    font-size: 16px;
+    font-weight: bold;
+}
+.newsPic{
+    padding-top: 30px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+.newsText{
+    padding-bottom: 40px;
+    border-bottom:1px dotted;
+}
+.newsText p{
+    font-size: 14px;
+}
+.newsButton{
+    float: right;
+    padding-top: 5px;
+}
+.newsButton a{
+    font-style: italic;
+    color:#2f2f2f;
+    font-size: 16px;
+}
+/*--/News--*/
+
+/*--Theme--*/
+#theme{
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+#theme div{
+    border-bottom:#CED8DE solid;
+    height: 60px;
+}
+#theme i{
+    float: left;
+    border-bottom: solid;
+    height: 60px;
+    margin-right: 10px;
+    color: #269abc;
+}
+#theme h1{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    font-style: italic;
+    line-height: 1.5;
+}
+#theme p{
+    font-size: 14px;
+    padding: 0;
+    color: #808080;
+    line-height: 1.5;
+}
+/*--/Theme--*/
+
+/*--Video--*/
+.video{
+    height: 49vw;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.videoText{
+    padding-left: 0;
+    border-bottom:1px dotted;
+    margin-bottom: 60px;
+    padding-bottom: 60px;
+}
+.videoText p{
+    font-size: 14px;
+}
+/*--/Video--*/
+
+/*--Service--*/
+#service a{
+    height: 23px;
+    background-color: #2f2f2f;
+    color: #ffffff;
+}
+#service a:hover{
+    background-color: #c5c5c5;
+    color: #2f2f2f;
+}
+#serviceTheme{
+    height: 60px;
+    margin: 0;
+    padding: 0;
+    margin-bottom: 40px;
+}
+.serviceReceptacle{
+    border-bottom:#CED8DE solid;
+    height: 60px;
+}
+.serviceIcon{
+    float: left;
+    border-bottom: solid;
+    height: 60px;
+    margin-right: 10px;
+    color: #269abc;
+}
+.serviceReceptacle h1{
+    font-size: 21px;
+    font-weight: bold;
+    margin: 0;
+    font-style: italic;
+    line-height: 1.5;
+}
+.serviceReceptacle p{
+    font-size: 14px;
+    padding: 0;
+    color: #808080;
+    line-height: 1.5;
+}
+.serviceMain{
+    height: auto;
+    border-bottom:1px dotted;
+    margin-bottom: 170px;
+    padding-left: 0;
+    padding-right: 0;
+}
+.servicePic{
+    height: 350px;
+    padding-left: 0;
+    padding-right: 0;
+    margin-bottom: 60px;
+}
+.servicePic img{
+    width: 100%;
+    height: 100%;
+}
+.serviceText h5{
+    font-size: 18px;
+    font-weight: bold;
+}
+.serviceText p{
+    font-size: 14px;
+}
+.serviceTextMini{
+    padding: 0;
+    margin-bottom: 60px;
+}
+.serviceTextMini p{
+    font-size: 14px;
+}
+/*--/Service--*/
